@@ -1,0 +1,19 @@
+condition 问候 订单查询 退款 退出
+
+rule1 welcom
+if 问候
+then reply "您好，欢迎使用...系统"
+
+rule2 order_check
+if 订单查询
+then reply "订单查询完成"
+
+rule3 refund
+if 退款
+then reply "正在为您申请退款"
+
+rule4 quit
+if 退出
+then reply "正在退出，感谢您的使用"
+
+end
