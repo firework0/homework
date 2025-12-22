@@ -1,0 +1,23 @@
+condition 登录 退出登录 余额查询 转账 退出使用
+
+rule1 sign_in
+if 登录
+then reply "登录成功"
+
+rule2 sign_out
+if 退出登录
+then reply "正在退出登录......已成功退出"
+
+rule3 check
+if 余额查询
+then reply "查询中......查询结果已发送至您的账户"
+
+rule4 transfer
+if 转账
+then reply "正在为您办理转账申请"
+
+rule5 quit
+if 退出使用
+then reply "正在退出......感谢您的使用"
+
+end

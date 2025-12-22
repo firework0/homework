@@ -1,0 +1,19 @@
+condition 登录 考试信息查询 出校申请 退出
+
+rule1 sign_in
+if 登录
+then reply "登录完成"
+
+rule2 exame_check
+if 考试信息查询
+then reply "考试信息到小程序查询"
+
+rule3 out
+if 出校申请
+then reply "正在为您申请出校"
+
+rule4 quit
+if 退出
+then reply "正在退出，感谢您的使用"
+
+end
