@@ -1,1 +1,1 @@
-api_key=sk-62df0d8a2e344fdcbd4272766ad5933e
+api_key=sk-你的千问密钥
